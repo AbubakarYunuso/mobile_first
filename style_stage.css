@@ -1,0 +1,235 @@
+body{
+    min-width: 375px;
+    font-family: "Roboto";
+    background-image: url(dwsdwd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.open{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    top: 3%;
+}
+.logo-text-fir {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 7px;
+}
+.open{
+    position: absolute;
+    right: 3%;
+    top: 3.5%;
+}
+.open a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.open a:visited{
+    color: #fff;
+}
+.pict1{
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    transform: matrix(1, 0, -0.28, 0.96, 0, 0);
+}
+.pict1 img{
+    padding-top: px;
+    padding-bottom: px;
+    opacity: 0%;
+}
+.fon, .pict1{
+    width: 61%;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    opacity: 30%;  
+}
+.pict1{
+    top: 24%;
+    width: 44%;
+    right: 28%;
+    height: 40%;
+}
+.fon img{
+    width: 100%;
+    
+}
+main{
+    width: 343px;
+    margin: auto;
+    margin-top: 39%;
+    text-align: center;
+}
+header{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.two-words{
+    display: flex;
+    justify-content: center;
+}
+.second{
+    margin-right: 8px;
+}
+.tree{
+    color: #3258FB;
+}
+.main-body{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.btn-main{
+    background: #3258FB;
+    box-shadow: inset 0px 8px 16px rgba(50, 88, 251, 0.24);
+    border-radius: 8px;
+    padding: 11px 22px;
+    color:#fff;
+}
+.btn-main{
+    border: none;
+}
+.exit{
+    position: absolute;
+    right: 1%;
+    top: 7%;
+}
+@media only screen and (min-width: 550px){
+    .fon{
+        right: 12%;
+    }
+    .fon img{
+        width: 100%;
+    }
+    main{
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 15%;
+    }
+    .two-words{
+        justify-content: flex-start;
+    }
+    .logo{
+        left: 10%;
+    }
+
+}
+@media only screen and (min-width: 700px){
+    .fon{
+        right: 12%;
+        width: 40%;
+    }
+    .fon img{
+        width: 100%;
+    }
+    main{
+        text-align: left;
+        margin-top: 25%;
+        margin-left: 15%;
+        }
+}
+@media only screen and (min-width: 800px){
+    .fon{
+        right: 12%;
+        width: 35%;
+        opacity: 40%;
+    }
+    .fon img{
+        width: 100%;
+    }
+    .exit{
+        right: 1.5%;
+    }
+}
+@media only screen and (min-width: 900px){
+    main{
+        text-align: left;
+        margin-top: 20%;
+        margin-left: 15%;
+        }
+        .main-body{
+            width: 100%;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        header{
+            font-size: 64px;
+            line-height: 80px
+        }
+        .main-body{
+            margin-bottom: 30px;
+        }
+}
+@media only screen and (min-width: 1000px){
+    .fon{
+        right: 12%;
+        width: 400px;
+        opacity: 50%;
+    }
+    .fon img{
+        width: 100%;
+    }
+    main{
+        text-align: left;
+        margin-top: 18%;
+        margin-left: 15%;
+        }
+}
+@media only screen and (min-width: 1200px){
+    main{
+        text-align: left;
+        margin-top: 14%;
+        margin-left: 5%;
+        }
+        .logo{
+            left: 5%;
+        }
+        .main-body{
+            margin-bottom: 35px;
+        }
+        .exit{
+            right: 2%;
+        }
+}
+@media only screen and (min-width: 1440px){
+    .fon{
+        right: 12%;
+        width: 450px;
+        opacity: 75%;
+    }
+    .fon img{
+        width: 100%;
+
+    }
+    .exit{
+        right: 2.5%;
+    }
+}
+@media only screen and (min-width: 1680px){
+    main{
+        text-align: left;
+        margin-top: 12%;
+        margin-left: 6%;
+        }
+}

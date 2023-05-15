@@ -1,0 +1,150 @@
+body{
+    min-width: 375px;
+    max-width: 1440px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    background-image: url(dwsdwd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 1px;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 32px;
+    margin-bottom: 93px;
+    justify-content: space-between;
+}
+.tre{
+    margin-top: 3px;
+}
+.tre a:visited{
+    color: #FFFFFF;
+}
+.texts{
+    text-align: center;
+    width: 355px;
+    margin: auto;
+}
+.fir-words, .fullstats{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px
+}
+.sec-words{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.fullstats{
+    margin-left: 3%;
+}
+.fir{
+    margin-right: 8px;
+}
+.logo-text{
+    display: flex;
+}
+.sec{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 2px;
+}
+.tre a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.tre a:visited{
+    color: white;
+}
+.com-text{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.btn-text{
+    margin-bottom: 40px;
+}
+.pickt{
+    position: absolute;
+    left: 19.47%;
+    right: 19.58%;
+    top: 28.53%;
+    bottom: 35%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    opacity: 10%;
+    width: 230px;
+    height: 230px;
+}
+.pickt img{
+    width: 100%;
+    height: 100%;
+}
+.fullstats{
+    color: #3258FB;
+}
+.ex-btn{
+    position: absolute;
+        left: 212px;
+        top: 50px;
+}
+@media only screen and (min-width: 550px) {
+    .texts {
+        text-align: left;
+        margin-left: 20%;
+    }
+    .sec-words{
+        justify-content: left;
+    }
+    .com-text{
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .pickt{
+        width: 250;
+        height: 300px;
+        left: 450px;
+        top: 221px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .pickt{
+        width: 500px;
+        height: 550px;
+        left: 58%;
+        top: 200px;
+        opacity: 60%;
+        
+    }
+}
+.pickt img{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 1440px){
+    .logo-text{
+        margin-bottom: 150px;
+    }
+    .texts{
+        margin-left: 144px;
+        width: 466px;
+    }
+    .fir-words, .fullstats{
+        font-size: 64px;
+        line-height: 80px
+    }
+    .ex-btn{
+        left: 1170px;
+    }
+}
+
